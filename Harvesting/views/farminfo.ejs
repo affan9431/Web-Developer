@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm NextIn || Seller Info</title>
+    <style>
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      /* Style headings */
+      h2 {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      /* Style labels */
+      label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      /* Style input fields and text area */
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      /* Style the submit button */
+      button[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      /* Change button color on hover */
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/contact" method="post">
+        <h2>Your Information:</h2>
+        <label for="name">Name: </label><br />
+        <input type="text" id="name" name="uname" /><br />
+        <label for="email">Email: </label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="phone">Phone Number: </label><br />
+        <input type="tel" id="phone" name="phone" /><br />
+        <label for="phone">Address: </label><br />
+        <input type="text" id="phone" name="address" /><br />
+        <label for="phone">Zip code: </label><br />
+        <input type="text" id="phone" name="zip" /><br />
+        <h2>Your Product:</h2>
+        <label for="name">Product Name: </label><br />
+        <input type="text" id="name" name="pname" /><br />
+        <label for="email">Quantity: </label><br />
+        <input type="text" id="email" name="quantity" /><br />
+        <label for="phone">Price: </label><br />
+        <input type="tel" id="phone" name="price" /><br />
+        <label for="phone">Description: </label><br />
+        <textarea name="" id="" cols="30" rows="10" name="desc"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
