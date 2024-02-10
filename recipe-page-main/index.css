@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.image {
+  width: 95vw;
+  height: 90vh;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image img {
+  width: 100%;
+  height: 80%;
+  border-radius: 9px;
+}
+.image h1 {
+  font-family: "Young Serif", serif;
+}
+.prep-time {
+  width: 92vw;
+  height: 30vh;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 9px;
+  background-color:  hsl(330, 100%, 98%);
+}
+.prep-time h3 {
+  color: hsl(332, 51%, 32%);
+}
+ul {
+  padding: 0px 23px;
+  margin: 12px 0px;
+}
+ul li {
+  padding: 6px 15px;
+}
+.ingredeints {
+  margin: 30px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.ingredeints h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.instruction {
+  margin: 30px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.instruction h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+ol {
+  padding: 0px 23px;
+  margin: 12px 0px;
+}
+ol li {
+  padding: 6px 15px;
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+table {
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.color {
+  color: hsl(14, 45%, 36%);
+  font-weight: bolder;
+}
+
+td {
+  padding: 8px;
+}
+
+@media (max-width: 375px) {
+  .image {
+    margin: 0;
+    width: 115vw;
+    height: 100vh;
+  }
+  .image img {
+    border-radius: 0px;
+  }
+  .image h1 {
+    font-size: xxx-large;
+    padding: 0px 22px;
+  }
+  .image p {
+    padding: 0px 49px;
+  }
+  .prep-time {
+    margin: 18px;
+  }
+}
+
